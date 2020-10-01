@@ -8,8 +8,10 @@ import { NavigationComponent } from './components/shared/navigation/navigation.c
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
 import { FilterComponent } from './components/shopping-cart/filter/filter.component';
-import { ListComponent } from './components/shopping-cart/list/list.component';
+import { ListComponent } from './components/shopping-cart/list/product-list.component';
 import { CartComponent } from './components/shopping-cart/cart/cart.component';
+import { CartItemComponent } from './components/shopping-cart/cart/cart-item/cart-item.component';
+import { ProductItemComponent } from './components/shopping-cart/list/product-item/product-item.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { CartComponent } from './components/shopping-cart/cart/cart.component';
     ShoppingCartComponent,
     FilterComponent,
     ListComponent,
-    CartComponent
+    CartComponent,
+    CartItemComponent,
+    ProductItemComponent
   ],
   imports: [
     BrowserModule,
