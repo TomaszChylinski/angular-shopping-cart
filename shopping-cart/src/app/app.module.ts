@@ -7,6 +7,11 @@ import { HeaderComponent } from './components/shared/header/header.component';
 import { NavigationComponent } from './components/shared/navigation/navigation.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
+import { FilterComponent } from './components/shopping-cart/filter/filter.component';
+import { ListComponent } from './components/shopping-cart/list/product-list.component';
+import { CartComponent } from './components/shopping-cart/cart/cart.component';
+import { CartItemComponent } from './components/shopping-cart/cart/cart-item/cart-item.component';
+import { ProductItemComponent } from './components/shopping-cart/list/product-item/product-item.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +19,12 @@ import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.
     HeaderComponent,
     NavigationComponent,
     FooterComponent,
-    ShoppingCartComponent
+    ShoppingCartComponent,
+    FilterComponent,
+    ListComponent,
+    CartComponent,
+    CartItemComponent,
+    ProductItemComponent
   ],
   imports: [
     BrowserModule,
