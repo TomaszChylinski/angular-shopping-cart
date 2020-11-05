@@ -46,36 +46,6 @@
         "price": 48000
       },
       "id": 1
-    },
-    {
-      "product": {
-        "id": 2,
-        "name": "Ronaldo",
-        "description": "",
-        "imageUrl": "https://gmsrp.cachefly.net/images/19/10/16/e0ee4f42eafcf709c5b60b4aa8ee2bd7/960.jpg",
-        "price": 68000
-      },
-      "id": 2
-    },
-    {
-      "product": {
-        "id": 1,
-        "name": "Adriano",
-        "description": "",
-        "imageUrl": "https://i2.wp.com/thesefootballtimes.co/wp-content/uploads/2015/07/Adriano.jpg?w=1600&ssl=1",
-        "price": 28000
-      },
-      "id": 3
-    },
-    {
-      "product": {
-        "id": 4,
-        "name": "Dunga",
-        "description": "",
-        "imageUrl": "https://i.pinimg.com/originals/49/04/26/490426d6309cc6bf1aca0b0e42ec66e5.jpg",
-        "price": 25000
-      },
-      "id": 4
     }
   ],
   "posts": [
@@ -83,6 +53,18 @@
       "id": 1,
       "title": "json-server",
       "author": "typicode"
+    }
+  ],
+  "wish-list": [
+    {
+      "product": {
+        "id": 3,
+        "name": "Roberto Carlos",
+        "description": "",
+        "imageUrl": "https://i.pinimg.com/474x/31/38/12/313812bcd76289cd2d94482199827c94.jpg",
+        "price": 48000
+      },
+      "id": 1
     }
   ],
   "comments": [

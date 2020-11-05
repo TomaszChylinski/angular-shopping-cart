@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { CartItem } from '../models/cart-item';
-import { from, Observable } from 'rxjs';
+import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { cartUrl } from 'src/app/config/api';
 import { Product } from '../models/product';
@@ -18,7 +18,6 @@ export class CartService {
         let cartItems: CartItem[] = [];
 
         for (let item of result) {
-          console.log("show me the items of result:", item)
           let productExists = false;
 
           for (let i in cartItems) {
@@ -43,3 +42,5 @@ export class CartService {
     return this.http.post(cartUrl, { product });
   }
 }
+
+// ids dont match, new item is added everything single time instead of it being ++

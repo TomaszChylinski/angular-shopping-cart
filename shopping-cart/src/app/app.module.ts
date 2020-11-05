@@ -12,6 +12,11 @@ import { ListComponent } from './components/shopping-cart/list/product-list.comp
 import { CartComponent } from './components/shopping-cart/cart/cart.component';
 import { CartItemComponent } from './components/shopping-cart/cart/cart-item/cart-item.component';
 import { ProductItemComponent } from './components/shopping-cart/list/product-item/product-item.component';
+import { WishListComponent } from './components/wish-list/wish-list.component';
+import { WishListItemComponent } from './components/wish-list/wish-list-item/wish-list-item.component';
+import { LoginComponent } from './components/login/login.component';
+import { RegisterComponent } from './components/register/register.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +30,11 @@ import { ProductItemComponent } from './components/shopping-cart/list/product-it
     CartComponent,
     CartItemComponent,
     ProductItemComponent,
+    WishListComponent,
+    WishListItemComponent,
+    LoginComponent,
+    RegisterComponent,
+    ContactComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
