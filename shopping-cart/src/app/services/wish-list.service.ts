@@ -1,7 +1,5 @@
 import { Injectable } from '@angular/core';
-import { WishList } from '../models/wish-list';
 import { wishListUrl } from 'src/app/config/api';
-import { Product } from '../models/product';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { map } from 'rxjs/operators';
@@ -10,15 +8,24 @@ import { map } from 'rxjs/operators';
   providedIn: 'root',
 })
 export class WishListService {
-  constructor(private http: HttpClient) {} //http enabled us to make calls
+  constructor(private http: HttpClient) {}
 
-  // addToWishList(product: Product): Observable<any> {
-  //   return this.http.post(wishListUrl, { product });
-  // }
+  getWishList() {
+    return this.http.get(wishListUrl).pipe(
+      map((result: any[]) => {
+        let productIds = [];
 
-  addToWishList(product: Product): Observable<any> {
-    return this.http.post(wishListUrl, { product });
+        result.forEach(item => productIds.push(item.id));
+        return productIds;
+      })
+    );
+  }
+
+  addToWishList(productId){
+    return this.http.post(wishListUrl, { productId });
+  }
+
+  removeFromWishList(productId) {
+    return this.http.delete(wishListUrl + '/' + productId);
   }
 }
-
-

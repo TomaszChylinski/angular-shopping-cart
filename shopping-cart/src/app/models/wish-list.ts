@@ -1,20 +1,22 @@
 import { Product } from './product';
 
-export class WishList {
-  id: number;
-  productId: number;
-  productTitle: string;
-  price: number;
+// NOT NEEDED
 
-  constructor(
-    id: number,
-    productId: number,
-    productTitle: string,
-    price: number
-  ) {
-      this.id = id,
-      this.productId = productId,
-      this.productTitle = productTitle,
-      this.price = price;
-  }
-}
+// export class WishList {
+//   id: number;
+//   productId: number;
+//   productTitle: string;
+//   price: number;
+
+//   constructor(
+//     id: number,
+//     productId: number,
+//     productTitle: string,
+//     price: number
+//   ) {
+//       this.id = id,
+//       this.productId = productId,
+//       this.productTitle = productTitle,
+//       this.price = price;
+//   }
+// }

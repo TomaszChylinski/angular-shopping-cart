@@ -19,10 +19,12 @@
         >
           Add to Cart
         </button>
-        <button type="button" class="btn btn-sm btn-outline-secondary"
-          (click)="addToWishList()">
-          Add To WishList
-        </button>
+        <i *ngIf="addedToWishList" class="fas fa-heart float-right"
+        (click)="removeFromWishList()"
+        ></i>
+        <i *ngIf="!addedToWishList" class="far fa-heart float-right"
+        (click)="addToWishList()"
+        ></i>
       </div>
     </div>
   </div>

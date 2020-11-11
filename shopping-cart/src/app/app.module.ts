@@ -17,6 +17,9 @@ import { WishListItemComponent } from './components/wish-list/wish-list-item/wis
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { importType } from '@angular/compiler/src/output/output_ast';
+import { PageNotFoundComponent } from './components/shared/page-not-found/page-not-found.component';
+
 
 @NgModule({
   declarations: [
@@ -35,6 +38,7 @@ import { ContactComponent } from './components/contact/contact.component';
     LoginComponent,
     RegisterComponent,
     ContactComponent,
+    PageNotFoundComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],

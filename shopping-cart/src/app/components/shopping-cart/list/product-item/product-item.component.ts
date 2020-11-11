@@ -11,8 +11,9 @@ import {WishListService} from 'src/app/services/wish-list.service';
 })
 export class ProductItemComponent implements OnInit {
 
-
+  @Input() addedToWishList: boolean;
   @Input() productItem: Product;
+
 
   constructor(
     private message: MessengerService,
@@ -29,8 +30,20 @@ export class ProductItemComponent implements OnInit {
   }
 
   addToWishList(){
-    this.wishListService.addToWishList(this.productItem).subscribe(() => {
+    this.wishListService.addToWishList(this.productItem.id).subscribe(() => {
       this.message.sendMessage(this.productItem);
+      this.addedToWishList = true;
     });
+  }
+
+  removeFromWishList(){
+    this.wishListService.removeFromWishList(this.productItem.id).subscribe(() => {
+      this.message.sendMessage(this.productItem);
+      this.addedToWishList = false;
+    });
+  }
+
+  loadWishList(){
+
   }
 }
