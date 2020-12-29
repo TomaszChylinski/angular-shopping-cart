@@ -10,7 +10,7 @@ export class MessengerService {
   constructor() {}
 
   sendMessage(product) {
-    console.log('show me if product is passed down: ', product)
+    console.log('show me if product is passed down: ', product);
     this.subject.next(product); // triggering an event
   }
 

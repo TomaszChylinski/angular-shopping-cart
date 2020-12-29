@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { CartItem } from 'src/app/models/cart-item';
 import { Product } from 'src/app/models/product';
+import { CartService } from 'src/app/services/cart.service';
 import { MessengerService } from 'src/app/services/messenger.service';
 
 @Component({
@@ -8,42 +10,37 @@ import { MessengerService } from 'src/app/services/messenger.service';
   styleUrls: ['./cart.component.css'],
 })
 export class CartComponent implements OnInit {
-  cartItems = [
-    // { id: 1, productId: 1, qty: 4, productTitle: 'prod1', price: 100 },
-    // { id: 1, productId: 2, qty: 4, productTitle: 'prod12', price: 200 },
-    // { id: 1, productId: 3, qty: 4, productTitle: 'prod13', price: 300 },
-    // { id: 1, productId: 4, qty: 4, productTitle: 'prod14', price: 400 },
-  ];
+  cartItems = [];
 
   cartTotal = 0;
 
-  constructor(private message: MessengerService) {}
+  constructor(
+    private message: MessengerService,
+    private cartService: CartService
+  ) {}
 
   ngOnInit() {
+    this.handleSubscription();
+    this.loadCartItems();
+  }
+
+  handleSubscription() {
     this.message.getMessage().subscribe((product: Product) => {
-      this.addProductToCart(product);
+      this.loadCartItems();
     });
   }
 
-  addProductToCart(product: Product) {
+  loadCartItems() {
+    this.cartService.getCartItems().subscribe((items: CartItem[]) =>{
+      this.cartItems = items;
+      this.calculateCartTotal();
+    })
+  }
 
-    let productExists = false;
-
-    for (const i in this.cartItems) {
-      if (this.cartItems[i].id === product.id) {
-        this.cartItems[i].qty++;
-        productExists = true;
-        break;
-      }
-    }
-
-    if (!productExists) {
-      this.cartItems.push({
-        id: product.id,
-        productTitle: product.name,
-        qty: 1,
-        price: product.price,
-      });
-    }
+  calculateCartTotal() {
+    this.cartTotal = 0;
+    this.cartItems.forEach((item) => {
+      this.cartTotal += item.qty * item.price;
+    });
   }
 }

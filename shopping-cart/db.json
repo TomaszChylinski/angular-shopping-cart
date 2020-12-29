@@ -1,0 +1,323 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Adriano",
+      "description": "",
+      "imageUrl": "https://i2.wp.com/thesefootballtimes.co/wp-content/uploads/2015/07/Adriano.jpg?w=1600&ssl=1",
+      "price": 28000
+    },
+    {
+      "id": 2,
+      "name": "Ronaldo",
+      "description": "",
+      "imageUrl": "https://gmsrp.cachefly.net/images/19/10/16/e0ee4f42eafcf709c5b60b4aa8ee2bd7/960.jpg",
+      "price": 68000
+    },
+    {
+      "id": 3,
+      "name": "Roberto Carlos",
+      "description": "",
+      "imageUrl": "https://i.pinimg.com/474x/31/38/12/313812bcd76289cd2d94482199827c94.jpg",
+      "price": 48000
+    },
+    {
+      "id": 4,
+      "name": "Dunga",
+      "description": "",
+      "imageUrl": "https://i.pinimg.com/originals/49/04/26/490426d6309cc6bf1aca0b0e42ec66e5.jpg",
+      "price": 25000
+    },
+    {
+      "id": 5,
+      "name": "Aldair",
+      "description": "",
+      "imageUrl": "https://s.hs-data.com/bilder/spieler/gross/1924.jpg",
+      "price": 15000
+    }
+  ],
+  "cart": [
+    {
+      "product": {
+        "id": 3,
+        "name": "Roberto Carlos",
+        "description": "",
+        "imageUrl": "https://i.pinimg.com/474x/31/38/12/313812bcd76289cd2d94482199827c94.jpg",
+        "price": 48000
+      },
+      "id": 1
+    },
+    {
+      "product": {
+        "id": 5,
+        "name": "Aldair",
+        "description": "",
+        "imageUrl": "https://s.hs-data.com/bilder/spieler/gross/1924.jpg",
+        "price": 15000
+      },
+      "id": 2
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Adriano",
+        "description": "",
+        "imageUrl": "https://i2.wp.com/thesefootballtimes.co/wp-content/uploads/2015/07/Adriano.jpg?w=1600&ssl=1",
+        "price": 28000
+      },
+      "id": 3
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Adriano",
+        "description": "",
+        "imageUrl": "https://i2.wp.com/thesefootballtimes.co/wp-content/uploads/2015/07/Adriano.jpg?w=1600&ssl=1",
+        "price": 28000
+      },
+      "id": 4
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Adriano",
+        "description": "",
+        "imageUrl": "https://i2.wp.com/thesefootballtimes.co/wp-content/uploads/2015/07/Adriano.jpg?w=1600&ssl=1",
+        "price": 28000
+      },
+      "id": 5
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Ronaldo",
+        "description": "",
+        "imageUrl": "https://gmsrp.cachefly.net/images/19/10/16/e0ee4f42eafcf709c5b60b4aa8ee2bd7/960.jpg",
+        "price": 68000
+      },
+      "id": 6
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Roberto Carlos",
+        "description": "",
+        "imageUrl": "https://i.pinimg.com/474x/31/38/12/313812bcd76289cd2d94482199827c94.jpg",
+        "price": 48000
+      },
+      "id": 7
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Adriano",
+        "description": "",
+        "imageUrl": "https://i2.wp.com/thesefootballtimes.co/wp-content/uploads/2015/07/Adriano.jpg?w=1600&ssl=1",
+        "price": 28000
+      },
+      "id": 8
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Adriano",
+        "description": "",
+        "imageUrl": "https://i2.wp.com/thesefootballtimes.co/wp-content/uploads/2015/07/Adriano.jpg?w=1600&ssl=1",
+        "price": 28000
+      },
+      "id": 9
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Ronaldo",
+        "description": "",
+        "imageUrl": "https://gmsrp.cachefly.net/images/19/10/16/e0ee4f42eafcf709c5b60b4aa8ee2bd7/960.jpg",
+        "price": 68000
+      },
+      "id": 10
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Ronaldo",
+        "description": "",
+        "imageUrl": "https://gmsrp.cachefly.net/images/19/10/16/e0ee4f42eafcf709c5b60b4aa8ee2bd7/960.jpg",
+        "price": 68000
+      },
+      "id": 11
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Ronaldo",
+        "description": "",
+        "imageUrl": "https://gmsrp.cachefly.net/images/19/10/16/e0ee4f42eafcf709c5b60b4aa8ee2bd7/960.jpg",
+        "price": 68000
+      },
+      "id": 12
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Roberto Carlos",
+        "description": "",
+        "imageUrl": "https://i.pinimg.com/474x/31/38/12/313812bcd76289cd2d94482199827c94.jpg",
+        "price": 48000
+      },
+      "id": 13
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Roberto Carlos",
+        "description": "",
+        "imageUrl": "https://i.pinimg.com/474x/31/38/12/313812bcd76289cd2d94482199827c94.jpg",
+        "price": 48000
+      },
+      "id": 14
+    },
+    {
+      "product": {
+        "id": 5,
+        "name": "Aldair",
+        "description": "",
+        "imageUrl": "https://s.hs-data.com/bilder/spieler/gross/1924.jpg",
+        "price": 15000
+      },
+      "id": 15
+    },
+    {
+      "product": {
+        "id": 5,
+        "name": "Aldair",
+        "description": "",
+        "imageUrl": "https://s.hs-data.com/bilder/spieler/gross/1924.jpg",
+        "price": 15000
+      },
+      "id": 16
+    },
+    {
+      "product": {
+        "id": 5,
+        "name": "Aldair",
+        "description": "",
+        "imageUrl": "https://s.hs-data.com/bilder/spieler/gross/1924.jpg",
+        "price": 15000
+      },
+      "id": 17
+    },
+    {
+      "product": {
+        "id": 4,
+        "name": "Dunga",
+        "description": "",
+        "imageUrl": "https://i.pinimg.com/originals/49/04/26/490426d6309cc6bf1aca0b0e42ec66e5.jpg",
+        "price": 25000
+      },
+      "id": 18
+    },
+    {
+      "product": {
+        "id": 4,
+        "name": "Dunga",
+        "description": "",
+        "imageUrl": "https://i.pinimg.com/originals/49/04/26/490426d6309cc6bf1aca0b0e42ec66e5.jpg",
+        "price": 25000
+      },
+      "id": 19
+    },
+    {
+      "product": {
+        "id": 4,
+        "name": "Dunga",
+        "description": "",
+        "imageUrl": "https://i.pinimg.com/originals/49/04/26/490426d6309cc6bf1aca0b0e42ec66e5.jpg",
+        "price": 25000
+      },
+      "id": 20
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Adriano",
+        "description": "",
+        "imageUrl": "https://i2.wp.com/thesefootballtimes.co/wp-content/uploads/2015/07/Adriano.jpg?w=1600&ssl=1",
+        "price": 28000
+      },
+      "id": 21
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "wish-list": [
+    {
+      "productId": 1,
+      "id": 6
+    },
+    {
+      "productId": 1,
+      "id": 7
+    },
+    {
+      "productId": 2,
+      "id": 8
+    },
+    {
+      "productId": 2,
+      "id": 9
+    },
+    {
+      "productId": 2,
+      "id": 10
+    },
+    {
+      "productId": 1,
+      "id": 11
+    },
+    {
+      "productId": 2,
+      "id": 12
+    },
+    {
+      "productId": 1,
+      "id": 13
+    },
+    {
+      "productId": 2,
+      "id": 14
+    },
+    {
+      "productId": 1,
+      "id": 15
+    },
+    {
+      "productId": 2,
+      "id": 16
+    },
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
